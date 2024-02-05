@@ -2,7 +2,7 @@ dpi = input("Ingresa tu dpi ")
 rs1 = input("\nQuieres continuar con ese DPI/ {y/n} ")
 
 if rs1 == "y":
-    if len(dpi) == 1:
+    if len(dpi) == 13:
         edad = int(input("\nIngresa tu edad "))
         
         if edad >= 7 and edad <= 18:
@@ -23,7 +23,6 @@ if rs1 == "y":
                           "QUICHÉ", 
                           "QUETZALTENANGO",
                           "RETALHULEU",
-                          "1",
                           "SACATEPÉQUEZ",
                           "SAN MARCOS", 
                           "SANTA ROSA", 
