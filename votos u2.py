@@ -54,7 +54,12 @@ if rs1 == "y":
                 else:
                     print("\nOperacion no valida")
 
-                print("\n Tu ficha de votacion fue:","\n Tu: ",nombre,"\nA la dedad de: ",edad,"\n Con el dpi: ",dpi,"\n Del departamento de: ",dep ,"\n Votaste para el presidente: ",presidente,"\n Y para alcalde por: ", alcalde,"\n Gracias por votar")
+                cf2=input("Quires confirmar tus vostos? y/n")
+                if cf2=="y":
+
+                    print("\n Tu ficha de votacion fue:","\n Tu: ",nombre,"\nA la dedad de: ",edad,"\n Con el dpi: ",dpi,"\n Del departamento de: ",dep ,"\n Votaste para el presidente: ",presidente,"\n Y para alcalde por: ", alcalde,"\n Gracias por votar")
+                else:
+                    print("Operacion no valida")
         else:
             print("\nNo cumples con la edad")
     else:
